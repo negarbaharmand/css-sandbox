@@ -1,0 +1,26 @@
+.container {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.link {
+  float: right;
+  width: 250px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+a.search {
+  color: black;
+  font-size: small;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a.search:hover {
+  color: darkcyan;
+  text-decoration: underline;
+}
