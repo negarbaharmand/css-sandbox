@@ -6,16 +6,14 @@
 }
 
 div.link {
-  float: right;
-  width: 250px;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
 }
 
 a.search {
   color: black;
-  font-size: small;
+  font-size: medium;
   text-decoration: none;
   margin: 20px;
 }
