@@ -13,7 +13,7 @@ div.link {
 }
 
 a.search {
-  color: rgb(69, 1, 172);
+  color: rgb(0, 0, 0);
   font-size: medium;
   text-decoration: none;
   margin: 20px;
@@ -22,4 +22,30 @@ a.search {
 a.search:hover {
   color: rgb(129, 0, 64);
   text-decoration: underline;
+}
+.input1 {
+  border-radius: 20px;
+  width: 600px;
+  height: 40px;
+  border-color: rgb(178, 177, 177);
+}
+.input1 {
+  outline: none;
+}
+
+button {
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  margin: 10px;
+  padding: 0;
+  border: none;
+  background: none;
+  background-color: rgb(240, 240, 240);
+}
+button:hover {
+  border: 1px solid #b6b5b5;
+}
+.form {
+  text-align: center;
 }

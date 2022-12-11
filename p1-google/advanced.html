@@ -12,7 +12,14 @@
       <a href="./index.html" class="search" target="_blank">Google Search</a>
     </div>
     <form action="https://www.google.com/advanced_search">
-      <input type="text" name="q" />
+      <label for="allWords">all these words:</label>
+      <input type="text" name="allWords" /> <br />
+      <label for="exactWord">this exact word or phrase:</label>
+      <input type="text" name="exactWord" /> <br />
+      <label for="anyWord">any of these words:</label>
+      <input type="text" name="anyWord" /><br />
+      <label for="noneWord">none of these words:</label>
+      <input type="text" name="noneWord" /> <br />
       <input type="submit" value="Advanced Search" />
     </form>
   </body>
