@@ -33,7 +33,7 @@ a.search:hover {
   outline: none;
 }
 
-button {
+.button {
   border-radius: 5px;
   width: 150px;
   height: 35px;
@@ -43,7 +43,7 @@ button {
   background: none;
   background-color: rgb(240, 240, 240);
 }
-button:hover {
+.button:hover {
   border: 1px solid #b6b5b5;
 }
 .form {
