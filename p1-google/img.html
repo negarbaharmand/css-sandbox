@@ -4,16 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search</title>
+    <title>Google Image</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="link">
-      <a href="./index.html" class="search" target="_blank">Google Search</a>
+    <div class="container">
+      <div id="gimage2">
+        <img src="./images/google-img.png" alt="Google Image logo" />
+      </div>
+      <div class="link">
+        <a href="./index.html" class="search" target="_blank">Google Search</a>
+      </div>
+      <div class="form">
+        <form amethod="get" action="http://images.google.com/images">
+          <input class="input1" type="text" name="q" /><br /><br />
+          <div>
+            <input
+              type="submit"
+              name="btnK"
+              value="Image Search"
+              class="button"
+            />
+          </div>
+        </form>
+      </div>
     </div>
-    <form action="https://images.google.com/">
-      <input type="text" name="q" />
-      <input type="submit" value="Image Search" />
-    </form>
   </body>
 </html>
