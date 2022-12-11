@@ -11,16 +11,35 @@
     <div class="link">
       <a href="./index.html" class="search" target="_blank">Google Search</a>
     </div>
-    <form action="https://www.google.com/advanced_search">
-      <label for="allWords">all these words:</label>
-      <input type="text" name="allWords" /> <br />
-      <label for="exactWord">this exact word or phrase:</label>
-      <input type="text" name="exactWord" /> <br />
-      <label for="anyWord">any of these words:</label>
-      <input type="text" name="anyWord" /><br />
-      <label for="noneWord">none of these words:</label>
-      <input type="text" name="noneWord" /> <br />
-      <input type="submit" value="Advanced Search" />
-    </form>
+    <label id="title">Advanced Search</label>
+    <hr />
+    <div id="advancedForm">
+      <span>Find pages with...</span> <br /><br />
+      <form action="https://google.com/search">
+        <div>
+          <label for="allWords">all these words:</label>
+          <input class="inputAd" type="text" name="as_q" id="allWords" /><br />
+        </div>
+
+        <div>
+          <label for="exactWord">this exact word or phrase:</label>
+          <input
+            class="inputAd"
+            type="text"
+            name="as_epq"
+            id="exactWord"
+          /><br />
+        </div>
+        <div>
+          <label for="anyWord">any of these words:</label>
+          <input class="inputAd" type="text" name="as_oq" id="anyWord" /><br />
+        </div>
+        <div>
+          <label for="noneWord">none of these words:</label>
+          <input class="inputAd" type="text" name="as_eq" id="noneWord" /><br />
+        </div>
+        <input id="buttonAd" type="submit" value="Advanced Search" />
+      </form>
+    </div>
   </body>
 </html>
